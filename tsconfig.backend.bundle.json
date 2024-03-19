@@ -7,6 +7,6 @@
     "tmp-source-bundle/**/*"
   ],
   "exclude": [
-    "tmp-source-bundle/assets"
+    "tmp-source-bundle/assetsasd"
   ]
 }

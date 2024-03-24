@@ -172,7 +172,7 @@ export class MorphiHelpers extends HelpersNg2Rest {
           const result = await asyncResponse(req, res);
           resolve(result as any);
         } catch (e) {
-          console.error('[firedev] Bad async function call ')
+          console.error('[firedev] Error during function call inside controller')
           Helpers.renderError(e);
           reject(e);
         }

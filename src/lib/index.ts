@@ -44,7 +44,6 @@ generate = () => { }
 
 //#region @websql
 import { Repository } from 'firedev-typeorm/src';
-import { ConfigModels } from 'tnp-config/src';
 //#endregion
 
 export class TypeormRepository<T>

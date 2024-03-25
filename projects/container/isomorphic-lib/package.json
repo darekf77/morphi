@@ -19,7 +19,9 @@
       "nodts": false,
       "obscure": false,
       "ugly": false,
-      "includeNodeModules": false
+      "cliBuildNoDts": false,
+      "cliBuildObscure": false,
+      "cliBuildIncludeNodeModules": false
     },
     "workerPlugins": {},
     "license": "UNLICENSED",

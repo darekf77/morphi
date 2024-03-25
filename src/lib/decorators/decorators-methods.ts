@@ -1,4 +1,4 @@
-import { ContentType, _ } from 'tnp-core/src';
+import { CoreModels, _ } from 'tnp-core/src';
 import { Models } from '../models';
 import { CLASS } from 'typescript-class-helpers/src';
 import { Models as ModelsNg2Rest } from 'ng2-rest/src';
@@ -70,7 +70,7 @@ function checkIfMethodsWithReponseTYpeAlowed(methods: Models.Rest.MethodConfig[]
 export interface FiredevHttpDecoratorOptions {
   path?: string;
   pathIsGlobal?: boolean;
-  overrideContentType?: ContentType;
+  overrideContentType?: CoreModels.ContentType;
   overridResponseType?: ModelsNg2Rest.ResponseTypeAxios,
 }
 

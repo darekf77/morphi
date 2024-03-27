@@ -110,7 +110,7 @@ export function initMethodBrowser(
           functionFn: orgMethods,
           context: this,
           arrayOfParams: args
-        }, args);
+        });
         // console.log({ res1: res })
         if (typeof res === 'function') {
           res = await Helpers.runSyncOrAsync({
